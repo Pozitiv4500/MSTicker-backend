@@ -1,0 +1,6 @@
+@MSBAPI_HostAddress = http://localhost:5195
+
+GET {{MSBAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
