@@ -1,0 +1,6 @@
+﻿services:
+  msbapi:
+    image: msbapi
+    build:
+      context: .
+      dockerfile: MSBAPI/Dockerfile
